@@ -1,0 +1,241 @@
+
+#title
+{
+    background: linear-gradient(-45deg, #ffc107,#dc3545,#fd7e14);
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color: white;
+}
+
+.icon4:hover{
+background: -webkit-linear-gradient(-45deg,#dc3545,#fd7e14);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+
+}
+.navbar-brand
+{
+    font-family:'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+}
+.navbar
+{
+    padding-bottom: 4.5rem;
+}
+.nav-item
+{
+    padding: 0 1vw;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+}
+.h11
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.imgiphone
+{   position: absolute;
+    width: 17%;
+    transform: rotate(25deg);
+    left: 55%;
+    
+   
+}
+.container-fluid
+{
+    padding: 3% 15%;
+}
+.featurerow
+{
+    text-align: center;
+}
+.btn
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+}
+.btn-download
+{
+    margin: 0 5% 10% 0;
+}
+#features
+{
+    background-color: white;
+    z-index: 1;
+    position:relative;
+}
+.icon4
+{
+    font-size: 5rem;
+    display: inline-block;
+    align-self: center;
+    padding: 10% 0;
+    
+}
+.h3features
+{
+    font-weight: 900;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+}
+.pfeatures
+{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: black;
+}
+.fab
+{
+    padding: 0 4px;
+}
+.fa-heart .fa-bullseye .fa-check-circle
+{
+    font-size: 10rem;
+}
+
+/* testimonials */
+#testimonials
+{
+    background: linear-gradient(-45deg, #ffc107,#dc3545,#fd7e14);
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color: white;
+    text-align: center;
+}
+.carousel-item
+{
+    padding: 7% 15%;
+}
+.carousel-item h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+  
+}
+.testimonial-image
+{
+    border-radius: 100%;
+    width: 10%;
+}
+
+/* Press */
+
+#press
+{
+    text-align: center;
+}
+.press-img
+{
+    width: 10rem;
+    margin: 30px; 
+}
+/* pricing */
+#pricing
+{
+    background: linear-gradient(-45deg, #ffc107,#dc3545,#fd7e14);
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    text-align: center;
+    padding: 100px;
+}
+#pricing h2
+{
+font-family: 'Montserrat', sans-serif;
+font-size: 2rem;
+font-weight: 900;
+}
+#pricing p
+{
+    font-family:'Ubuntu', sans-serif;
+    
+}
+#pricing h3
+{
+    text-transform: capitalize;
+    font-family:'Ubuntu', sans-serif;
+}
+.pricing-column
+{
+    padding: 3% 2%;
+    text-align: center;
+}
+.pricingbutton
+{
+    padding: 5px 50px ;
+}
+.card
+{
+    border-style: none;
+    border-radius: 5px;
+}
+.card-header
+{
+    background-color:#212529;
+    color: white;
+}
+/* Call to Action */
+#cta
+{
+    text-align: center;
+    padding: 2% 0 0 0;
+}
+.ctah3
+{
+font-family: 'Montserrat', sans-serif;
+font-size: 2rem;
+font-weight: 900;
+}
+.btn-download.cta{
+    margin: 0 5% 5% 0;
+}
+/* Footer */
+#footer
+{
+    background: linear-gradient(-45deg, #ffc107,#dc3545,#fd7e14);
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    text-align: center;
+}
+.footerimg
+{
+    width: 200px;
+}
+.footerp
+{
+    color: white;
+}
+@media (max-width:994px)
+{
+.imgiphone
+{   
+position: static;
+width: 40%;
+transform: rotate(0deg);
+}
+#titleimg{
+    text-align: center;
+}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+    100% 
+    {
+		background-position: 0% 50%;
+    }
+
